@@ -3,6 +3,27 @@ Containing all the files to experiment with machine learning and data from the M
 
 This readme will serve as a documentation for now:
 
+# Data transformation (bag -> csv) 
+First we need to decide what topics are useful for the machine learing algorithm that we are going to develop.
+
+With a simple shell script we can create txt files with topics/msgs info for all files in a directory.
+>rosbaginfo_to_txt.sh
+
+In order to use rosbaginfo_to_txt.sh you need:
+ - To put the script inside the directory with the bag files.
+ - Make it executable from properties and before running the script (./rosbaginfo_to_txt.sh) and run the command chmod -x rosbaginfo_to_txt.sh
+ 
+ The .txt files will be created with info about the topics that are used in each bag file
+
+A list of all the topics was made in order to decide what topics/data is going to be used. The topics are presented the following worksheet.
+>topic_list.docx
+
+After selecting the topics/data we transform the .bag to .scv files 
+
+# To transform .bag files to .csv 
+follow the link
+> https://github.com/AtsushiSakai/rosbag_to_csv
+
 # Topics in the ros bags
 
 | Topic | type | comments |
