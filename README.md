@@ -28,8 +28,10 @@ follow the link
 
 | Topic | type | comments |
 | ------ | ------ | ----- |
-| /cmd_vel | geometry_msgs/Twist | This is velocity that the robot is commanded to move. Linear and angular with ref frame base_link (center of robot). This velocity can be given either from teleop or autonomy |
-| /teleop/cmd_vel | geometry_msgs/Twist | This is the velocity that the robot is commanded to move from the operator via the joystick (teleoperation). |
+| /cmd_vel | geometry_msgs/Twist | This is velocity that the robot is commanded to move. Linear and angular with ref frame base_link (center of robot). This velocity can be given either from teleop or autonomy.|
+| /teleop/cmd_vel | geometry_msgs/Twist | This is the velocity that the robot is commanded to move from the operator via the joystick (teleoperation).|
+| /odom | nav_msgs/Odometry | This represents an estimate of a position and velocity in free space.| 
 | /joy | sensor_msgs/Joy | Raw readings from joystick/joystick ROS drivers. Reports the state of a joysticks axes and buttons. This is from the joystick used by the operator to control the robot.|
-| /joy2 | sensor_msgs/Joy | Raw readings from joystick. This is from the joystick used by the experimenter to control the experiment, e.g. experiment start/stop stamp, seconary task timestamps, noise reset etc|
+| /joy2 | sensor_msgs/Joy | Raw readings from joystick. This is from the joystick used by the experimenter to control the experiment, e.g. experiment start/stop stamp, seconary task timestamps, noise reset etc.|
+| /trajectory | nav_msgs/Path | An array of poses that represents a Path for a robot to follow. |
 
