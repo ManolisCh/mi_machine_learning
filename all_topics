@@ -1,0 +1,192 @@
+   - topic: /amcl/parameter_descriptions
+      type: dynamic_reconfigure/ConfigDescription
+      
+    - topic: /amcl/parameter_updates
+      type: dynamic_reconfigure/Config
+     
+    - topic: /amcl_pose
+      type: geometry_msgs/PoseWithCovarianceStamped
+      
+    - topic: /camera/image/camera_info
+      type: sensor_msgs/CameraInfo
+      
+    - topic: /camera/image/image
+      type: sensor_msgs/Image
+      
+    - topic: /cam_compress/image/compressed
+      type: sensor_msgs/CompressedImage
+    
+    - topic: /cam_compress/image/compressed/parameter_descriptions
+      type: dynamic_reconfigure/ConfigDescription
+    
+    - topic: /cam_compress/image/compressed/parameter_updates
+      type: dynamic_reconfigure/Config
+      
+    - topic: /cmd_vel
+      type: geometry_msgs/Twist
+      
+    - topic: /control_mode
+      type: std_msgs/Int8
+      
+    - topic: /diagnostics
+      type: diagnostic_msgs/DiagnosticArray
+      
+    - topic: /experiment_started
+      type: std_msgs/Bool
+      
+    - topic: /joint_states
+      type: sensor_msgs/JointState
+    
+    - topic: /joy
+      type: sensor_msgs/Joy
+     
+    - topic: /joy2
+      type: sensor_msgs/Joy
+      
+    - topic: /map
+      type: nav_msgs/OccupancyGrid
+     
+    - topic: /map_metadata
+      type: nav_msgs/MapMetaData
+      
+    - topic: /move_base/TrajectoryPlannerROS/parameter_descriptions
+      type: dynamic_reconfigure/ConfigDescription
+   
+    - topic: /move_base/TrajectoryPlannerROS/parameter_updates
+      type: dynamic_reconfigure/Config
+   
+    - topic: /move_base/cancel
+      type: actionlib_msgs/GoalID
+    
+    - topic: /move_base/global_costmap/costmap
+      type: nav_msgs/OccupancyGrid
+   
+    - topic: /move_base/global_costmap/costmap_updates
+      type: map_msgs/OccupancyGridUpdate
+  
+    - topic: /move_base/global_costmap/inflation_layer/parameter_descriptions
+      type: dynamic_reconfigure/ConfigDescription
+  
+    - topic: /move_base/global_costmap/inflation_layer/parameter_updates
+      type: dynamic_reconfigure/Config
+    
+    - topic: /move_base/global_costmap/obstacle_layer/parameter_descriptions
+      type: dynamic_reconfigure/ConfigDescription
+   
+    - topic: /move_base/global_costmap/obstacle_layer/parameter_updates
+      type: dynamic_reconfigure/Config
+ 
+    - topic: /move_base/global_costmap/obstacle_layer_footprint/footprint_stamped
+      type: geometry_msgs/PolygonStamped
+   
+    - topic: /move_base/global_costmap/obstacle_layer_footprint/parameter_descriptions
+      type: dynamic_reconfigure/ConfigDescription
+   
+    - topic: /move_base/global_costmap/obstacle_layer_footprint/parameter_updates
+      type: dynamic_reconfigure/Config
+   
+    - topic: /move_base/global_costmap/parameter_descriptions
+      type: dynamic_reconfigure/ConfigDescription
+  
+    - topic: /move_base/global_costmap/parameter_updates
+      type: dynamic_reconfigure/Config
+     
+    - topic: /move_base/global_costmap/static_layer/parameter_descriptions
+      type: dynamic_reconfigure/ConfigDescription
+    
+    - topic: /move_base/global_costmap/static_layer/parameter_updates
+      type: dynamic_reconfigure/Config
+  
+    - topic: /move_base/local_costmap/costmap
+      type: nav_msgs/OccupancyGrid
+   
+    - topic: /move_base/local_costmap/inflation_layer/parameter_descriptions
+      type: dynamic_reconfigure/ConfigDescription
+    
+    - topic: /move_base/local_costmap/inflation_layer/parameter_updates
+      type: dynamic_reconfigure/Config
+   
+    - topic: /move_base/local_costmap/obstacle_layer/parameter_descriptions
+      type: dynamic_reconfigure/ConfigDescription
+    
+    - topic: /move_base/local_costmap/obstacle_layer/parameter_updates
+      type: dynamic_reconfigure/Config
+    
+    - topic: /move_base/local_costmap/obstacle_layer_footprint/footprint_stamped
+      type: geometry_msgs/PolygonStamped
+     
+    - topic: /move_base/local_costmap/obstacle_layer_footprint/parameter_descriptions
+      type: dynamic_reconfigure/ConfigDescription
+     
+    - topic: /move_base/local_costmap/obstacle_layer_footprint/parameter_updates
+      type: dynamic_reconfigure/Config
+    
+    - topic: /move_base/local_costmap/parameter_descriptions
+      type: dynamic_reconf
+     
+    - topic: /move_base/local_costmap/parameter_updates
+      type: dynamic_reconfigure/Config
+     
+    - topic: /move_base/parameter_descriptions
+      type: dynamic_reconfigure/ConfigDescription
+     
+    - topic: /move_base/parameter_updates
+      type: dynamic_reconfigure/Config
+     
+    - topic: /move_base/status
+      type: actionlib_msgs/GoalStatusArray
+     
+    - topic: /noise_active
+      type: std_msgs/Bool
+      
+    - topic: /noise_reset
+      type: std_msgs/Bool
+     
+    - topic: /odom
+      type: nav_msgs/Odometry
+     
+    - topic: /particlecloud
+      type: geometry_msgs/PoseArray
+      
+    - topic: /robot_status/mode/compressed
+      type: sensor_msgs/CompressedImage
+      
+    - topic: /robot_status/mode/compressed/parameter_descriptions
+      type: dynamic_reconfigure/ConfigDescription
+      
+    - topic: /robot_status/mode/compressed/parameter_updates
+      type: dynamic_reconfigure/Config
+     
+    - topic: /robot_status/nav/compressed
+      type: sensor_msgs/CompressedImage
+    
+    - topic: /robot_status/nav/compressed/parameter_updates
+      type: dynamic_reconfigure/Config
+      
+    - topic: /rosout
+      type: rosgraph_msgs/Log
+      
+    - topic: /rosout_agg
+      type: rosgraph_msgs/Log
+      
+    - topic: /scan
+      type: sensor_msgs/LaserScan
+    
+    - topic: /scan_final
+      type: sensor_msgs/LaserScan
+    
+    - topic: /secondary_task/ended
+      type: std_msgs/Bool
+    
+    - topic: /secondary_task/started
+      type: std_msgs/Bool
+     
+    - topic: /teleop/cmd_vel
+      type: geometry_msgs/Twist
+  
+    - topic: /tf
+      type: tf2_msgs/TFMessage
+     
+    - topic: /trajectory
+      type: nav_msgs/Path
+   
